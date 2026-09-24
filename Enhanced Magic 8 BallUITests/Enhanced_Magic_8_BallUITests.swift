@@ -23,14 +23,19 @@ final class Enhanced_Magic_8_BallUITests: XCTestCase {
     }
 
     @MainActor
-    func testExample() throws {
-        // UI tests must launch the application that they test.
+    func testShakeRevealsAnswerAndAskAgainReturnsToIdle() throws {
         let app = XCUIApplication()
         app.launch()
 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // XCUIAutomation Documentation
-        // https://developer.apple.com/documentation/xcuiautomation
+        let shakeButton = app.buttons["Shake the Ball"]
+        XCTAssertTrue(shakeButton.waitForExistence(timeout: 5))
+        shakeButton.tap()
+
+        let askAgainButton = app.buttons["Ask Again"]
+        XCTAssertTrue(askAgainButton.waitForExistence(timeout: 5))
+        askAgainButton.tap()
+
+        XCTAssertTrue(shakeButton.waitForExistence(timeout: 5))
     }
 
     @MainActor
