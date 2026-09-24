@@ -7,7 +7,7 @@ Phases for the Enhanced Magic 8 Ball.
 - [x] Xcode project with app, unit-test, and UI-test targets (iOS 27.0)
 - [x] Git remote configured; `dev` branch created and pushed
 
-## Phase 2 — v1 feature delivery (in progress)
+## Phase 2 — v1 feature delivery (done 2026-09-23)
 
 - [x] Domain layer: category weights, saying catalog, deck state, draw engine
 - [x] UI: ball, triangular answer window, rock animation, shake/ask-again flow
@@ -16,7 +16,7 @@ Phases for the Enhanced Magic 8 Ball.
 - [x] Unit tests (Swift Testing) + UI test (shake → reveal → ask again)
 - [x] Bootstrap docs, `scripts/verify.sh`, `opencode.json`
 - [x] Verification: build, 11/11 unit, 2/2 UI, Info.plist check
-- [ ] Delivery commit to `dev` + push
+- [x] Delivery commit to `dev` + push (`bd8553a`)
 
 ## Phase 3 — Follow-ups (unscheduled)
 

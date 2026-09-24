@@ -2,9 +2,9 @@
 
 ## Now
 
-- [ ] Commit v1 delivery to `dev` and push (code, tests, docs, build metadata).
+- (none)
 
-## Verification gates for the delivery
+## Verification gates for the v1 delivery
 
 - [x] Build for iOS Simulator passes.
 - [x] Unit tests (11) pass.
