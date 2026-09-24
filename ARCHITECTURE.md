@@ -1,6 +1,6 @@
 # Architecture
 
-SwiftUI app, iOS 27.0, Swift, no third-party dependencies. Layered so the
+SwiftUI app, iOS 26.0+, Swift, no third-party dependencies. Layered so the
 domain logic is testable without UI or platform state.
 
 ## Layers

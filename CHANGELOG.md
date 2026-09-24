@@ -2,6 +2,13 @@
 
 User-visible and build-affecting changes. Newest first.
 
+## [1.0 (3)] — 2026-09-23
+
+### Changed
+- Deployment target lowered from iOS 27.0 to iOS 26.0 on all three targets
+  (app, unit tests, UI tests) so the app installs on iOS 26 devices.
+- Build number 2 → 3.
+
 ## [1.0 (2)] — 2026-09-23
 
 ### Added

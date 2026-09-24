@@ -20,9 +20,9 @@ A single-screen iOS app that answers a question with a weighted-random Magic
 
 ## Current state
 
-- iOS 27.0, SwiftUI, Swift, no third-party dependencies.
+- iOS 26.0+, SwiftUI, Swift, no third-party dependencies.
 - v1 spec implemented; 11 unit tests + 2 UI tests pass.
-- Marketing version 1.0, build 2.
+- Marketing version 1.0, build 3.
 - Branch `dev` on `github.com/JohnHoaglun/Enhanced-Magic-8-Ball-Mobile`.
 
 ## Verification
