@@ -6,10 +6,10 @@ there is no literal `Info.plist` in the repo (`GENERATE_INFOPLIST_FILE = YES`).
 | What | Value | Location |
 | --- | --- | --- |
 | Marketing version (`CFBundleShortVersionString`) | 1.0 | `Enhanced Magic 8 Ball.xcodeproj` → target `Enhanced Magic 8 Ball` → `MARKETING_VERSION` |
-| Build number (`CFBundleVersion`) | 3 | same target → `CURRENT_PROJECT_VERSION` |
+| Build number (`CFBundleVersion`) | 4 | same target → `CURRENT_PROJECT_VERSION` |
 | Deployment target | iOS 26.0 | all three targets → `IPHONEOS_DEPLOYMENT_TARGET` |
 | Orientation | portrait only | same target → `INFOPLIST_KEY_UISupportedInterfaceOrientations` |
-| Bundle ID | `Hoaglun.com.Enhanced-Magic-8-Ball` | same target → `PRODUCT_BUNDLE_IDENTIFIER` |
+| Bundle ID | `com.hoaglun.enhancedmagic8ball` | same target → `PRODUCT_BUNDLE_IDENTIFIER` |
 | Changelog | — | `CHANGELOG.md` (one entry per delivery) |
 
 ## Rules

@@ -2,6 +2,12 @@
 
 User-visible and build-affecting changes. Newest first.
 
+## [1.0 (4)] — 2026-10-11
+
+### Changed
+- Bundle IDs standardized to the `com.hoaglun` scheme across all three targets: `Hoaglun.com.Enhanced-Magic-8-Ball{,Tests,UITests}` → `com.hoaglun.enhancedmagic8ball{,Tests,UITests}`.
+- Build number 3 → 4.
+
 ## [1.0 (3)] — 2026-09-23
 
 ### Changed
